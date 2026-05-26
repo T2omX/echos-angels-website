@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#f6eddc"/>
+<circle cx="960" cy="170" r="170" fill="#fff7df"/>
+<circle cx="170" cy="650" r="210" fill="#efe2c9"/>
+<path d="M150 570 C330 420 480 690 650 520 S990 430 1080 610" fill="none" stroke="#68733f" stroke-width="18" stroke-linecap="round" opacity=".55"/>
+<text x="80" y="120" font-family="Arial" font-size="58" font-weight="800" fill="#151515">Gallery 1</text>
+<text x="82" y="190" font-family="Arial" font-size="30" fill="#606050">Replace with real photo</text>
+<text x="80" y="710" font-family="Arial" font-size="90" fill="#68733f">🐾</text>
+</svg>

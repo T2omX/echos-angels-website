@@ -1,0 +1,186 @@
+{
+  "site": {
+    "businessName": "Echo's Angels",
+    "subtitle": "Dog Training",
+    "email": "echosangelsllc@gmail.com",
+    "phone": "",
+    "serviceArea": "Colorado Springs and surrounding area",
+    "tagline": "Warm, exciting, professional dog training built on trust and connection.",
+    "adminHint": "Edit safely, export content.json, then upload it to GitHub."
+  },
+  "nav": [
+    "Home",
+    "About",
+    "Services",
+    "Gallery",
+    "FAQ",
+    "Contact"
+  ],
+  "home": {
+    "eyebrow": "Colorado Springs & Surrounding Area",
+    "title": "Better training.",
+    "script": "Stronger bonds.",
+    "body": "Warm, relationship-focused dog training that helps you and your dog build confidence, communication, and real-life skills together.",
+    "primaryButton": "Let's Train Together",
+    "secondaryButton": "Explore Services",
+    "values": [
+      {
+        "icon": "\u2661",
+        "title": "Trust First",
+        "text": "Training built around connection, clarity, and confidence."
+      },
+      {
+        "icon": "\ud83d\udc3e",
+        "title": "Real-Life Skills",
+        "text": "Practical manners for homes, walks, adventures, and public life."
+      },
+      {
+        "icon": "\u2600",
+        "title": "Warm Guidance",
+        "text": "Supportive coaching for both dog and owner."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Echo's Angels",
+    "script": "Inspired by Echo",
+    "paragraphs": [
+      "Echo's Angels was built around the bond between dogs and their people. Training should feel clear, encouraging, and useful in real life \u2014 not overwhelming.",
+      "The goal is simple: help dogs understand what we need from them, help owners understand what their dogs are communicating, and build a relationship that feels better every day."
+    ],
+    "callout": "Trust first. Clarity always. Better lives together."
+  },
+  "services": [
+    {
+      "title": "Puppy Training",
+      "text": "Foundations for confidence, manners, potty routines, crate comfort, social skills, and early obedience.",
+      "image": "assets/images/service-puppy.svg",
+      "enabled": true
+    },
+    {
+      "title": "Basic Obedience",
+      "text": "Sit, stay, recall, leash manners, impulse control, and daily-life reliability.",
+      "image": "assets/images/service-obedience.svg",
+      "enabled": true
+    },
+    {
+      "title": "Leash Manners",
+      "text": "Help with pulling, focus on walks, polite greetings, and calmer outdoor routines.",
+      "image": "assets/images/service-leash.svg",
+      "enabled": true
+    },
+    {
+      "title": "Confidence Building",
+      "text": "Gentle support for nervous, shy, or easily overwhelmed dogs.",
+      "image": "assets/images/service-confidence.svg",
+      "enabled": true
+    },
+    {
+      "title": "Behavior Support",
+      "text": "Practical guidance for common behavior struggles with an owner-friendly plan.",
+      "image": "assets/images/service-behavior.svg",
+      "enabled": true
+    },
+    {
+      "title": "Adventure Prep",
+      "text": "Training for real-world outings, hiking, travel, and public manners.",
+      "image": "assets/images/service-adventure.svg",
+      "enabled": true
+    }
+  ],
+  "gallery": [
+    {
+      "src": "assets/images/pixel-echo-mountain.png",
+      "caption": "Echo inspiration",
+      "enabled": true
+    },
+    {
+      "src": "assets/images/gallery-2.svg",
+      "caption": "Happy dogs",
+      "enabled": true
+    },
+    {
+      "src": "assets/images/gallery-3.svg",
+      "caption": "Outdoor confidence",
+      "enabled": true
+    },
+    {
+      "src": "assets/images/gallery-4.svg",
+      "caption": "Better teamwork",
+      "enabled": true
+    },
+    {
+      "src": "assets/images/gallery-5.svg",
+      "caption": "Everyday skills",
+      "enabled": true
+    },
+    {
+      "src": "assets/images/gallery-6.svg",
+      "caption": "Echo's Angels",
+      "enabled": true
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Drew helped us understand our dog better and gave us a plan that actually made sense.",
+      "name": "Client testimonial placeholder",
+      "enabled": true
+    },
+    {
+      "quote": "The training felt supportive, clear, and encouraging from the beginning.",
+      "name": "Client testimonial placeholder",
+      "enabled": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Where are you located?",
+      "a": "Echo's Angels serves Colorado Springs and the surrounding area.",
+      "enabled": true
+    },
+    {
+      "q": "What training do you offer?",
+      "a": "Puppy training, obedience, leash manners, recall, confidence building, and behavior support. Services are easy to edit as the business grows.",
+      "enabled": true
+    },
+    {
+      "q": "How do I get started?",
+      "a": "Use the contact form or email echosangelsllc@gmail.com with your dog's name, age, and what you want help with.",
+      "enabled": true
+    }
+  ],
+  "socials": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": ""
+  },
+  "sections": {
+    "about": true,
+    "services": true,
+    "gallery": true,
+    "testimonials": true,
+    "faq": true,
+    "video": false
+  },
+  "images": {
+    "logo": "assets/images/echos-angels-logo-clean.png",
+    "pixelEcho": "assets/images/pixel-echo-mountain.png",
+    "heroSlides": [
+      "assets/images/hero-1.svg",
+      "assets/images/hero-2.svg",
+      "assets/images/pixel-echo-mountain.png"
+    ],
+    "aboutImage": "assets/images/pixel-echo-mountain.png"
+  },
+  "seo": {
+    "title": "Echo's Angels Dog Training | Colorado Springs",
+    "description": "Echo's Angels provides warm, relationship-focused dog training in Colorado Springs and the surrounding area.",
+    "keywords": "dog training Colorado Springs, puppy training, leash manners, obedience training, Echo's Angels"
+  },
+  "form": {
+    "useFormspree": false,
+    "formspreeEndpoint": "",
+    "emailSubject": "New Echo's Angels training inquiry"
+  }
+}

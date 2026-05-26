@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="120" fill="#fffaf0"/>
+<ellipse cx="256" cy="92" rx="82" ry="28" fill="none" stroke="#f2c94c" stroke-width="24"/>
+<text x="256" y="300" text-anchor="middle" font-family="Arial" font-size="112" font-weight="900" fill="#151515">🐾</text>
+<text x="256" y="405" text-anchor="middle" font-family="Arial" font-size="118" fill="#68733f">🪽</text>
+</svg>
