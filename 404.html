@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Page Not Found | Echo's Angels Dog Training</title>
+  <meta name="description" content="Echo's Angels dog training in Colorado Springs and surrounding area.">
+  <meta property="og:title" content="Echo's Angels Dog Training">
+  <meta property="og:description" content="Warm, relationship-focused dog training for Colorado Springs and surrounding area.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/images/logo-placeholder.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav">
+    <a class="brand" href="#home">
+      <img id="brandLogo" src="assets/images/logo-placeholder.svg" alt="Echo's Angels logo">
+      <div><div id="brandName" class="brand-title script">Echo's Angels</div><div id="brandSub" class="brand-subtitle">Dog Training</div></div>
+    </a>
+    <button class="menu-btn" onclick="toggleMenu()" aria-label="Menu">☰</button>
+    <nav id="navLinks" class="nav-links">
+      <button id="settingsBtn" class="settings-btn" onclick="openAdmin()">Settings</button>
+      <a class="nav-cta" href="#contact">Let's Train Together</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div id="heroSlides"></div>
+    <div class="hero-content">
+      <div id="heroEyebrow" class="eyebrow"></div>
+      <h1><span id="heroTitle"></span><span id="heroScript" class="script"></span></h1>
+      <p id="heroBody"></p>
+      <div class="button-row">
+        <a id="heroPrimary" class="btn btn-primary" href="#contact"></a>
+        <a id="heroSecondary" class="btn btn-secondary" href="#services"></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="value-wrap"><div id="values" class="values"></div></div>
+
+  <section id="about" data-section="about" class="section">
+    <div class="about-grid">
+      <div class="photo-card"><img id="aboutImage" src="assets/images/about-placeholder.svg" alt="Echo's Angels dog training"></div>
+      <div class="about-copy">
+        <div id="aboutScript" class="script" style="font-size:42px;color:var(--olive)"></div>
+        <h2 id="aboutTitle"></h2>
+        <div id="aboutParagraphs"></div>
+        <p><strong id="aboutCallout" class="callout"></strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" data-section="services" class="section">
+    <div class="section-title"><div class="script">How We Can Help</div><h2>Services</h2></div>
+    <div id="servicesGrid" class="cards"></div>
+  </section>
+
+  <section id="gallery" data-section="gallery" class="section">
+    <div class="section-title"><div class="script">Real Moments</div><h2>Gallery</h2></div>
+    <div id="galleryGrid" class="gallery-grid"></div>
+  </section>
+
+  <section id="testimonials" data-section="testimonials" class="section">
+    <div class="section-title"><div class="script">Kind Words</div><h2>Testimonials</h2></div>
+    <div id="testimonialsGrid" class="testimonials"></div>
+  </section>
+
+  <section id="faq" data-section="faq" class="section">
+    <div class="section-title"><div class="script">Good to Know</div><h2>FAQ</h2></div>
+    <div id="faqList" class="faq-list"></div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="contact-card">
+      <div>
+        <h2 id="contactTitle" class="script">Let's Train Together</h2>
+        <p class="contact-note">Email: <strong id="contactEmail"></strong><br>Service area: <strong id="contactArea"></strong></p>
+        <a id="quickEmail" class="btn btn-secondary" href="#">Email Directly</a>
+        <div id="socialLinks" class="socials"></div>
+      </div>
+      <form onsubmit="submitTrainingForm(event)">
+        <input name="name" placeholder="Your name" required>
+        <input name="email" type="email" placeholder="Your email" required>
+        <input name="phone" placeholder="Phone, optional">
+        <input name="dog" placeholder="Dog's name / age">
+        <textarea name="message" placeholder="What would you like help with?" required></textarea>
+        <button class="btn btn-secondary" type="submit">Send Training Inquiry</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div id="footerName" class="script" style="font-size:34px"></div>
+  <div id="footerText"></div>
+</footer>
+
+<div class="mobile-contact"><a id="mobileEmail" href="#">Email</a><a id="mobileCall" href="#contact">Contact</a></div>
+
+<aside id="adminPanel" class="admin-panel">
+  <div class="admin-top"><h3>Admin Edit Mode</h3><button onclick="closeAdmin()">✕</button></div>
+  <p class="hint">Safe editing: Save Draft changes this browser only. Export content.json when ready to update the live website.</p>
+  <div class="admin-tabs">
+    <button data-tab="site">Site</button><button data-tab="home">Home</button><button data-tab="services">Services</button>
+    <button data-tab="gallery">Gallery</button><button data-tab="faq">FAQ</button><button data-tab="socials">Socials</button>
+    <button data-tab="sections">Sections</button><button data-tab="images">Images</button><button data-tab="seo">SEO</button>
+  </div>
+  <div id="adminContent"></div>
+  <div class="admin-actions">
+    <button class="save" onclick="saveDraft()">Save Draft</button>
+    <button onclick="exportJSON()">Export content.json</button>
+    <label class="btn btn-secondary" style="padding:9px 12px"><input type="file" accept=".json" onchange="importJSON(event)" style="display:none">Import</label>
+    <button onclick="runChecks()">Run Checks</button>
+    <button class="danger" onclick="clearDraft()">Clear Draft</button>
+  </div>
+</aside>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
